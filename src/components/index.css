@@ -1,0 +1,236 @@
+.slideShowBody{
+    width: 100%;
+    height: 80vh;
+    background-color: white;
+}
+.slide-show-container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.mySlides, .mySlidess {
+  display: none;
+}
+.slideShowContainer{
+  width: 100%;
+  height: 100%;
+}
+.react-slideshow-container .default-nav:last-of-type {
+  background-color: rgba(0, 0, 0, 0.658);
+}
+.react-slideshow-container .default-nav:first-of-type {
+  background-color: rgba(0, 0, 0, 0.658);
+}
+.create-acc-btn{
+  position: absolute;
+  bottom: 5%;
+  left: 18%;
+}
+.mob{
+  display: none;
+}
+
+/* CONTACT FORM  */
+.contact-section{
+  width: 100%;
+  height: 80vh;
+  background-color: whitesmoke;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-image: url("../assets/landing-page-slide-show/3.png"); */
+  background-size: cover;
+  background-attachment: fixed;
+}
+.contact-form-container, .contact-form-background{
+  width: 95%;
+  height: 90%;
+  position: absolute;
+  background-color: whitesmoke;
+}
+.contact-form-body{
+  width: 100%;
+  height: 100%;
+}
+.contact-form-body form{
+  text-align: center;
+}
+.contact-fname-lname{
+  display: flex;
+  width: 100%;
+  align-items: start;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+.contact-fname label{
+  display: block;
+  text-align: start;
+  font-weight: bold;
+  font-size: 18px;
+
+}
+.contact-fname input{
+  width: 350px;
+  border-radius: 10px;
+  height: 40px;
+  padding-left: 10px;
+  /* margin-bottom: 25px; */
+  font-weight: bold;
+}
+.contact-lname label{
+  display: block;
+  text-align: end;
+  font-size: 18px;
+  font-weight: bold;
+}
+.contact-lname input{
+  width: 350px;
+  border-radius: 10px;
+  height: 40px;
+  padding-left: 10px;
+  font-weight: bold;
+}
+.contact-email-phone{
+  display: flex;
+  width: 100%;
+  align-items: start;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+.contact-email{
+  width: auto;
+  text-align: start;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+.contact-email label{
+  display: block;
+  text-align: start;
+  font-size: 18px;
+  font-weight: bold;
+}
+.contact-email input{
+  width: 510px;
+  border-radius: 10px;
+  height: 40px;
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+.contact-phone label{
+  display: block;
+  text-align: start;
+  font-size: 18px;
+  font-weight: bold;
+}
+.contact-phone input{
+  width: 200px;
+  border-radius: 10px;
+  height: 40px;
+  padding-left: 10px;
+  font-weight: bold;
+}
+.contact-address-response{
+  /* display: flex; */
+  width: 100%;
+  /* align-items: start;
+  justify-content: space-evenly; */
+  margin-bottom: 20px;
+}
+.contact-address label{
+  display: block;
+  /* text-align: +; */
+  font-size: 18px;
+  font-weight: bold;
+  padding-left: 35px;
+  text-align: start;
+}
+.contact-address input{
+  width: 890px;
+  border-radius: 10px;
+  height: 40px;
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+.contact-address{
+  width: 80%;
+  height: auto;
+  margin: auto;
+}
+.contact-enpadres{
+  text-align: center;
+  margin-bottom: 15px;
+  
+}
+.contact-enpadres textarea{
+  width: 850px;
+  height: 60px;
+}
+.contact-form-background{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+.con-form-back-body{
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  /* display: grid;
+  align-items: center;
+  justify-content: center; */
+  /* background-color: green; */
+}
+.con-form-back-body img{
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+}
+
+@media only screen and (min-width: 240px) and (max-width: 750px) {
+
+    .cmp{
+      display: none;
+    }
+    .mob{
+      display: block;
+    }
+    .contact-section {
+      height: 150vh;
+    }
+    .contact-fname {
+      margin-bottom: 20px;
+    }
+    .contact-fname-lname {
+      display: grid;  
+    }
+    .contact-fname input {
+      width: 280px;
+    }
+    .contact-lname {
+      margin-bottom: 20px;
+    }
+    .contact-lname label {
+      text-align: start;
+    }
+    .contact-lname input {
+      width: 280px;
+    }
+    .contact-email-phone {
+      display: grid;
+    }
+    .contact-email input {
+      width: 280px;
+    }
+    .contact-address input {
+      width: 280px;
+    }
+    .contact-address label{
+      padding-left: 0;
+    }
+    .contact-enpadres textarea {
+      width: 280px;
+    }
+}
