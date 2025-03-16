@@ -6,7 +6,7 @@ import Navigation from "../section/navigation";
 import ResponsivNav from "../section/responsiveNav";
 
 // COMPONENTES
-import ContactForm from "../components/ContactForm.jsx";
+import ContactForm from "../components/contactForm.jsx";
 
 const Testemones = () =>{
 
