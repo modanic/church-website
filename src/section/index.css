@@ -205,7 +205,7 @@ nav>ul{
   }
 
   
-@media only screen and (min-width: 340px) and (max-width: 750px) {
+@media only screen and (min-width: 240px) and (max-width: 750px) {
     .deskRespons{
         display: none;
     }
